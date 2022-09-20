@@ -9,6 +9,7 @@ services:
     tty: true
   node-app:
     build: .
+    image: manucho/node-app
     environment:
       - PORT=3000
     depends_on:
