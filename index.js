@@ -23,13 +23,6 @@ let redisClient = redis.createClient({
 
 redisClient.connect();
 
-// const connectRedis = async () => {
-
-//     await redisClient.connect()
-// }
-
-// connectRedis()
-
 const postRouter = require("./routes/postRoutes");
 const userRouter = require("./routes/userRoutes");
 
